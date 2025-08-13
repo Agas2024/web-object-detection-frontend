@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import axios from "axios";
 
-const API_BASE = "http://localhost:5000";
+const API_BASE = "https://obj-backend-3xr4.onrender.com";
 
 export default function App() {
   const videoRef = useRef(null);
